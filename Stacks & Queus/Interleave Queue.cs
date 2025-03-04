@@ -17,6 +17,7 @@ internal class Program
             queue.Enqueue(firstHalf.Dequeue());
             queue.Enqueue(queue.Dequeue());
         }
+        return queue
     }
     static void Main(string[] args)
     {
